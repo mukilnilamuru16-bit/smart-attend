@@ -1,0 +1,32 @@
+{
+  "name": "smart-attend-backend",
+  "version": "1.0.0",
+  "description": "SmartAttend Intelligent Student Attendance Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test tests/runner.js"
+  },
+  "keywords": [
+    "attendance",
+    "education",
+    "express",
+    "jwt",
+    "analytics"
+  ],
+  "author": "SmartAttend Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
